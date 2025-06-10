@@ -1,3 +1,9 @@
+import ModerationDashboardClient from "@/components/moderation/ModerationDashboardClient";
+
 export default function Home() {
-  return <></>;
+  return (
+    <main>
+      <ModerationDashboardClient />
+    </main>
+  );
 }
